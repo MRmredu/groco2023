@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's a Grocery Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!------    Header Secrion    ------->
+
+<header class="header">
+    
+    <a href="#" class="logo"><img src="images/logo1.png"></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/1 watermelon.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$8.99</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cone Ice Cream .png" alt="">
+            <div class="content">
+                <h3>cone ice-cream</h3>
+                <span class="price">$13.99</span>
+                <span class="quantity">qty : 3</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/capsicum.png" alt="">
+            <div class="content">
+                <h3>capsicum</h3>
+                <span class="price">$2.24</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/chicken.png">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$10.00</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+
+        <div class="total">total : $36.21/- </div>
+        <a href="#" class="btn">cheakout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password? <a href="#">click here...</a></p>
+        <p>don't have an acount? <a href="#">create new account</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+
+<!------    Home Secrion    ------->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for you</h3>
+        <p>Organic foods include fresh produce, meats, and dairy products as well as processed foods such as crackers, drinks, and frozen meals.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+</section>
+<br><br>
+
+<!------    Features Secrion    ------->
+
+<section class="features" id="features">
+
+    <h1 class="heading">our <span>features</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/vegetables.png" alt="">
+            <h3>fresh and organic</h3>
+            <p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers, and does not contain genetically modified organisms (GMOs).</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+
+        <div class="box">
+            <img src="images/free-delivery.png" alt="">
+            <h3>free delevary</h3>
+            <p>Save money and grab the best free shipping in Bangladesh. And Now you get the fastest free home delivery to save money at Mgroco shopping website ✓No delivery</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cashless-payment.png" alt="">
+            <h3>easy payments</h3>
+            <p>Easy Payment Plan means the plan that converts a retail purchase amount charged to a Card into monthly instalment payment with an agreed instalment payment period.</p>
+            <a href="#" class="btn">read more...</a>
+        </div>
+
+    </div>
+</section>
+<br><br>
+
+
+<!------    products Section    ------->
+
+<section class="products" id="products">
+    <h1 class="heading"> our <span>products</span></h1><br>
+
+    <div class="products-slider">
+
+        <div class="wrapper">
+
+            <h4>fruit items</h4>
+            
+            <div class="box">
+                <img src="images/apple.png" alt="">
+                <h3>fresh apple</h3>
+                <div class="price"> $3.99/- - $7.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/product-1.png" alt="">
+                <h3>fresh orange</h3>
+                <div class="price"> $5.99/- - $10.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+
+            <div class="box">
+                <img src="images/grapes.png" alt="">
+                <h3>fresh grapes</h3>
+                <div class="price"> $7.99/- - $15.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pomegranate.png" alt="">
+                <h3>fresh pomegranate</h3>
+                <div class="price"> $8.99/- - $18.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            
+        </div>
+
+    </div>
+
+<br> <br> <br>
+
+<div class="products-slider">
+
+    <div class="wrapper">
+
+        <h4>dairy items</h4>
+     
+        <div class="box">
+            <img src="images/milk.png" alt="">
+            <h3>fresh milk</h3>
+            <div class="price"> $4.99/- - $8.99/-</div>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <img src="images/egg.png" alt="">
+            <h3>chicken eggs</h3>
+            <div class="price"> $2.99/- - $10.99/-</div>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <img src="images/butter.png" alt="">
+            <h3>fresh butter</h3>
+            <div class="price"> $5.99/- - $15.99/-</div>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>  
+
+
+        <div class="box">
+            <img src="images/cheese.png" alt="">
+            <h3>100% pure cheese</h3>
+            <div class="price"> $5.99/- - $14.99/-</div>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    
+    </div>
+</div>
+
+<br><br><br>
+
+    <div class="products-slider">
+
+            <div class="wrapper">
+             
+                <h4>vegetable items</h4>
+
+                <div class="box">
+                    <img src="images/product-5.png" alt="">
+                    <h3>fresh potato</h3>
+                    <div class="price"> $2.99/- - $8.99/-</div>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="box">
+                    <img src="images/product-2.png" alt="">
+                    <h3>fresh onion</h3>
+                    <div class="price"> $3.99/- - $10.99/-</div>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+                <div class="box">
+                    <img src="images/product-4.png" alt="">
+                    <h3>fresh cabage</h3>
+                    <div class="price"> $5.99/- - $9.99/-</div>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>  
+
+
+                <div class="box">
+                    <img src="images/product-8.png" alt="">
+                    <h3>green lemon</h3>
+                    <div class="price"> $3.99/- - $7.99/-</div>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            
+            </div>
+    </div>
+
+<br><br><br>
+
+    <div class="products-slider">
+
+        <div class="wrapper">
+
+            <h4>meat items</h4>
+
+            <div class="box">
+                <img src="images/product-3.png" alt="">
+                <h3>beef</h3>
+                <div class="price"> $12.99/- - $19.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/goat meat.png" alt="">
+                <h3>goat meat</h3>
+                <div class="price"> $15.99/- - $22.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/pigeon meat.png" alt="">
+                <h3>pigeon meat</h3>
+                <div class="price"> $10.99/- - $13.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/quail meat.png" alt="">
+                <h3>quail meat</h3>
+                <div class="price"> $10.99/- - $14.99/-</div>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        
+        </div>
+</div>
+</section>
+
+<!------    catagories Section    ------->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading">product <span>categories</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cat-2.png" alt="">
+            <h3>fresh fruits</h3>
+            <p>upto 25% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-3.png" alt="">
+            <h3>dairy products</h3>
+            <p>upto 20% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-1.png" alt="">
+            <h3>vegetables</h3>
+            <p>upto 35% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-4.png" alt="">
+            <h3>fresh meats</h3>
+            <p>upto 28% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+ 
+    </div>
+
+</section>
+
+<!------    review Section    ------->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span> review </span></h1>
+
+    <div class="review-slider">
+
+        <div class="wrapper">
+
+            <div class="box">
+
+                <img src="images/1 sushant.jpg" alt="">
+                <p>I liked Best Grocery thank you. Products are good, delivery is good. I only think that kokorec is very expensive, it can be cheaper. And lokum can be better I think. I want to buy Hemsin Organik Tea and Caykur Hediyelik Cay. If you can bring them I want to buy. I didnt buy Turkish coffee yet, but if it is fresh I will buy and will be pleased. Thank you so much.</p>
+                <h3>sushant singh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <br><br>
+            <div class="box">
+
+                <img src="images/4 hrittik .jpg" alt="">
+                <p>This is one of the best experience we ever had ! Professional premium service,products were beautifully and securely packed and lil suprise.. who doesn't love it ? 🥰 I am so grateful and I'll be loyal customer.</p>
+                <h3>hrittik roshan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <br><br>
+            <div class="box">
+
+                <img src="images/3 chris hemsworth .jpg" alt="">
+                <p>Excellent service. Good selections. Postage price can reduce a little bit 🙂
+                But still happy to do shopping from them specially handmade foods 👍🏼 thanks</p>
+                <h3>chris hemsworth</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <br><br>
+            <div class="box">
+
+                <img src="images/jackie chan.jpg" alt="">
+                <p>fresh products, the company is very professional and helpful. Quick solution for the smallest problem. their packaging is super, there is no problem with shipping.</p>
+                <h3>jackie chan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!------    blogs Section    ------->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span> blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"> by user </i></a>
+                    <a href="#"><i class="fas fa-calendar"> 22th january, 2022</i></a>
+                </div>
+                <h3>fresh and organic vegetables and fruits</h3>
+                <p>Feasting on Fruit sharing simple snacks and treats that are secretly healthy under their dessert disguises! Snacking made sweeter with fruit. Vegan, gluten-free, grain-free, and healthy recipes and inspiration for anyone with a sweet tooth!</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"> by user </i></a>
+                    <a href="#"><i class="fas fa-calendar"> 19th november, 2022</i></a>
+                </div>
+                <h3>best ice-cream with traditional service</h3>
+                <p>MGroco is devoted to ice cream and related frozen desserts in all its fascinating forms and variations. A main objective is to encourage, promote and share information on the making of home-made ice cream.</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"> by user </i></a>
+                    <a href="#"><i class="fas fa-calendar"> 09th january, 2023</i></a>
+                </div>
+                <h3>fresh & pure fish, meat and dairy products</h3>
+                <p>We would offer our members free choice access to everything our farm produces-and You choose what you take each week. Your share could include our 100% grassfed dairy products, grassfed beef & pastured pork, and pastured eggs.</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!------    Footer Section    ------->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/logo1.png" alt="">
+            <p>you might be rest assured that we have a strong reputation about our shopping mall. we can provide the best delevary service all over the country.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/?_rdc=1&_rdr"  target="_blank" class="fab fa-facebook"></a>
+                <a href="https://www.twitter.com/" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://www.youtube.com/" target="_blank" class="fab fa-youtube"></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3>contact info </h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +123-543-968</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i> +999-143-556</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> mgroco@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> feni, Bangladesh - 1440</a>
+        </div>
+
+
+        <div class="box">
+            <h3>menu</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> home</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> features</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> products</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> review</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>email</h3>
+            <p>submit for updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="submit" class="btn">
+        </div>
+
+
+    </div>
+
+    <div class="credit"> created by <span> KS <i class="fas fa-heart"></i> MREDUL </span> | copyright © 2023 </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------    Javascript Link    ------->
+<script src="script.js"></script>
+
+</body>
+</html>
